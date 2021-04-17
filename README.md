@@ -34,4 +34,4 @@
 
  
  # ✔ 회의록
-notion -> ( https://www.notion.so/41e8083360b14e15939b93191e890a1e )
+notion ( https://www.notion.so/41e8083360b14e15939b93191e890a1e )
