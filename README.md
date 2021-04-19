@@ -1,4 +1,4 @@
-# 🐥 Software Engineering 7조 🐥
+# 🐥 Software Engineering 7팀 🐥
 
 ## ✔ 조 구성원
 학번 | 이름 | 역할
