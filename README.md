@@ -11,6 +11,8 @@
 ## ✔ 프로젝트 바로가기
 * #### [요구사항 명세서(ver1.1)](https://github.com/thgus5335/SE_project/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C%20ver1.1.docx)
 * #### [프로젝트 계획서(ver1.0)](https://github.com/thgus5335/SE_project/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C%20ver1.0.doc)
+* #### Upload! [중간 발표 영상](https://github.com/thgus5335/SE_project/blob/main/%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C/%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C%20%EC%98%81%EC%83%81.mp4)
+* #### Upload! [중간 발표 ppt](https://github.com/thgus5335/SE_project/blob/main/%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C/%EC%A4%91%EA%B0%84%20%EB%B0%9C%ED%91%9C%20ppt.pdf)
 
 ## ✔ 회의록 바로가기
 * #### [회의록(notion)](https://www.notion.so/41e8083360b14e15939b93191e890a1e)
