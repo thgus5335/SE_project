@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7F4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_camp2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캠핑장 검색하기"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/search_starpoint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="| 별점순"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/camp1"
+            android:src="@drawable/camp_1"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="XXX캠핑장"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:numStars="5"
+                android:progressTint="#000000"
+                android:rating="5"
+                android:stepSize="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/camp2"
+            android:src="@drawable/camp_2"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="XOO캠핑장"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:numStars="5"
+                android:progressTint="#000000"
+                android:rating="4.5"
+                android:stepSize="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/camp3"
+            android:src="@drawable/camp_3"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="XXX캠핑장"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:numStars="5"
+                android:progressTint="#000000"
+                android:rating="3"
+                android:stepSize="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+
+</LinearLayout>

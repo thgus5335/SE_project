@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorback">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마이페이지"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="50dp"
+        android:background="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:text="XXX 님\n캠핑장 운영자"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/user_p"
+        android:drawablePadding="5dp"
+        />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
+            android:background="#FEF7F4"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/infor_icon"
+            android:text="회원정보"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="예약확인"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/colorback"
+            android:drawableTop="@drawable/search_icon"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="90dp"
+            android:drawableTop="@drawable/mycamp_icon"
+            android:text="나의캠핑장"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:backgroundTint="#FEF7F4"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:drawableTop="@drawable/good_icon"
+            android:text="후기목록"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:backgroundTint="#FEF7F4"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FEF7F4"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="logout"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/logout"
+
+        />
+</LinearLayout>
