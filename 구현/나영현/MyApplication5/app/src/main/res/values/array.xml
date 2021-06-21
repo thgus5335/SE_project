@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "join">
+        <item> 캠핑장을 예약하고 이용할래요~ </item>
+        <item> 운영하는 캠핑장을 등록할래요~ </item>
+    </string-array>
+</resources>
